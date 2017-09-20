@@ -11,7 +11,7 @@ Gigasecond.prototype.date = function(){
     // let n = givenSeconds.toExponential();
 
     // we need to add the given seconds
-    let totalSeconds = inMiliSeconds + 1e12; 
+    let totalSeconds = inMiliSeconds + 1000000000000; 
 
     var date = new Date(totalSeconds);
 
